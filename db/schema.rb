@@ -11,14 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171111105002) do
+ActiveRecord::Schema.define(version: 20171112003633) do
 
   create_table "items", force: :cascade do |t|
     t.string   "name"
-    t.string    "price"
+    t.float    "price"
     t.float    "discount_rate"
     t.string   "category"
     t.string   "business"
+    t.string   "location"
+    t.string   "time"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "searches", force: :cascade do |t|
+    t.float    "Discount_rate"
+    t.string   "category"
+    t.string   "Business"
     t.string   "location"
     t.string   "time"
     t.datetime "created_at",    null: false

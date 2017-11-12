@@ -1,0 +1,28 @@
+<h1>Advanced Search </h1>
+<%= form_for(@search) do |f| %>
+  <div class="field">
+    <%= f.label :discount_rate %><br>
+    <%= f.text_field :discount_rate %>
+  </div>
+  <div class="field">
+    <%= f.label :category %><br>
+    <%= f.select :category, options_for_select(@category), :include_blank => true%>
+  </div>
+  <div class="field">
+    <%= f.label :business %><br>
+    <%= f.text_field :business %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br>
+    <%= f.text_field :location %>
+  </div>
+  <div class="field">
+    <%= f.label :time %><br>
+    <%= f.text_field :time %>
+  </div>
+  
+
+  <% end %> 
+ 
+ 
+  
