@@ -1,28 +1,17 @@
 == README
+ruby version: ruby 2.3.4p301
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails version: Rails 4.2.5
 
-Things you may want to cover:
+operation system: DISTRIB_ID=Ubuntu
+                  DISTRIB_RELEASE=14.04
 
-* Ruby version
+我使用了scaffor来生产基本的框架，我已经完成了CRUD和基本搜索，分类搜索还有问题。 
+这是我第一次使用Git，不太会介绍如何使用。
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+展示的话，需要在discount_items目录下 输入 rails server -p $PORT -b $IP 这命令会自动生成本地页面用于展示。
+同时 我也会分享我用来学习这个框架使用的在线编程系统来方便展示。
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
