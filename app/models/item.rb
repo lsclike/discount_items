@@ -10,4 +10,3 @@ class Item < ActiveRecord::Base
 end
 
 
-# @admins = Admin.where(["name LIKE ?","%#{search}%"])
