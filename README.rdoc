@@ -10,7 +10,9 @@ operation system: DISTRIB_ID=Ubuntu
 这是我第一次使用Git，不太会介绍如何使用。
 
 展示的话，需要在discount_items目录下 输入 rails server -p $PORT -b $IP 这命令会自动生成本地页面用于展示。
-同时 我也会分享我用来学习这个框架使用的在线编程系统来方便展示。
+
+也可以通过我使用的在线IDE网站进入 网址是https://test-lsclike.c9users.io/
+
 
 
 
